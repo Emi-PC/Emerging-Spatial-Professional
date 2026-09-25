@@ -1,73 +1,112 @@
-# Emerging-Spatial-Professional
 # Emerging Spatial Professional
 
-## Spatial Questions to Market Data
+## Spatial Questions to Market Data – Igando-Ikotun LCDA, Lagos State
 
-This project is part of my spatial data analysis work as an Emerging Spatial Professional. 
-The project focuses on using geospatial data and Python-based tools to explore spatial 
-questions related to towns, markets, and their locations.
+### Project Overview
 
-## Project Overview
+This project focuses on the application of Geographic Information Systems (GIS),
+spatial data analysis, Python, automation, and Artificial Intelligence (AI) to
+investigate spatial questions within **Igando-Ikotun Local Council Development
+Area (LCDA), Lagos State, Nigeria**.
 
-The objective of this project is to demonstrate how spatial data can be collected, 
-processed, analyzed, and visualized using Python.
+The project demonstrates how spatial data can be collected, processed, analyzed,
+and visualized to generate useful information about locations, markets, and
+their spatial relationships.
 
-The analysis involves working with geographic data to answer spatial questions and 
-derive useful information about the relationship between locations and market-related 
-features.
+Artificial Intelligence is used as an enabler throughout the workflow to support
+problem-solving, coding, data processing, interpretation, and the automation of
+spatial tasks.
+
+## Area of Interest
+
+**Igando-Ikotun LCDA, Lagos State, Nigeria**
+
+Igando-Ikotun LCDA is the geographical focus of the spatial analysis carried
+out in this project.
 
 ## Objectives
 
 The main objectives of this project are to:
 
-- Explore and understand spatial datasets.
-- Load and process geographic data using Python.
-- Perform spatial analysis on towns and market-related locations.
-- Answer spatial questions using geospatial techniques.
-- Visualize spatial information.
-- Develop practical skills in Geographic Information Systems (GIS) and spatial data analysis.
+- Explore spatial data within Igando-Ikotun LCDA.
+- Investigate spatial questions related to markets and locations.
+- Process and analyze geospatial data using Python.
+- Apply GIS techniques to understand spatial relationships.
+- Automate repetitive spatial data processing tasks.
+- Visualize spatial information effectively.
+- Explore how Artificial Intelligence can support spatial analysis and workflow
+  automation.
+- Develop practical skills in modern geospatial data analysis.
 
-## Data
+## Main Dataset
 
-The project uses geospatial data containing information about towns and their geographic 
-locations.
+The main dataset used for this project is:
 
-The main spatial dataset is provided in GeoJSON format.
+**`igando_ikotun.geojson`**
 
-### Dataset
-
-- `sample_towns.geojson` — spatial dataset containing town/location information.
+This GeoJSON dataset contains the spatial information used for the analysis
+within the Igando-Ikotun LCDA area of Lagos State.
 
 ## Notebook
 
 The main analysis is contained in the Jupyter Notebook:
 
-`Copy of sprint2_spatial_questions_to_market_data.ipynb`
+**`spatial_questions_to_market_data.ipynb`**
 
-The notebook contains the Python code, data processing steps, spatial analysis, and 
-results generated during the project.
+The notebook contains the Python workflow, data processing, spatial analysis,
+visualizations, and results.
 
 ## Tools and Technologies
 
-The following tools and technologies were used:
+The project uses:
 
-- Python
-- Google Colab
--  Notebook
-- GeoPandas
-- Pandas
-- GeoJSON
-- GIS / Spatial Analysis
+- **Python**
+- **Google Colab**
+- **Jupyter Notebook**
+- **GeoPandas**
+- **Pandas**
+- **Matplotlib**
+- **GeoJSON**
+- **GIS / Spatial Analysis**
 
- Project Structure
+## Spatial Workflow
+
+The project follows a spatial data analysis workflow:
+
+1. **Define the Spatial Problem**
+   - Identify spatial questions related to markets and locations within
+     Igando-Ikotun LCDA.
+
+2. **Data Acquisition**
+   - Obtain the required geospatial data for the study area.
+
+3. **Data Preparation**
+   - Load, inspect, clean, and prepare `igando_ikotun.geojson`.
+
+4. **Spatial Processing**
+   - Use Python and GeoPandas to process the spatial data.
+
+5. **Automation**
+   - Automate repetitive spatial data processing and analysis tasks using code.
+
+6. **Spatial Analysis**
+   - Analyze geographic relationships and patterns within the study area.
+
+7. **Visualization**
+   - Create maps and other visual outputs to communicate spatial information.
+
+8. **Interpretation**
+   - Interpret the results and extract useful spatial insights.
+
+## Project Structure
 
 ```text
 Emerging-Spatial-Professional/
 │
 ├── README.md
 │
-├── Copy of sprint2_spatial_questions_to_market_data.ipynb
+├── spatial_questions_to_market_data.ipynb
 │
 ├── code.py
 │
-└── sample_towns.geojson
+└── igando_ikotun.geojson
